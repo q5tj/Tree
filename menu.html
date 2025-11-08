@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="photo/Tree.jpg">
+  <title>Tree - Menu</title>
+
+  <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 🌐 Language Switcher -->
+  <div class="language-switcher">
+    <button class="lang-btn active" id="lang-en">EN</button>
+    <button class="lang-btn" id="lang-ar">AR</button>
+  </div>
+
+  <!-- زر العودة للأعلى -->
+  <button class="back-to-top" id="backToTop">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 19V5" />
+      <path d="M5 12l7-7 7 7" />
+    </svg>
+  </button>
+
+  <div class="menu-container">
+    <a href="index.html" class="back-btn" data-en="← Back to Home" data-ar="← العودة للرئيسية">← Back to Home</a>
+    <div class="menu-title">
+      <img src="photo/Tree.jpg" alt="Tree Logo" class="menu-logo">
+<h6 data-en="Specialty Coffee and More" data-ar="قهوة مختصة وأكثر">قهوة مختصة وأكثر</h6>
+      
+    </div>
+
+    <!-- Tabs Dynamic -->
+    <div class="tabs" id="tabsContainer"></div>
+
+    <!-- Menu Sections Dynamic -->
+    <div id="menuSections"></div>
+
+    <div class="social-media">
+      <a href="https://www.instagram.com/wekad.sa/?hl=ar" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+      <!-- <a href="https://www.instagram.com/wekad.sa/?hl=ar" class="social-icon whatsapp"><i class="fab fa-whatsapp"></i></a> -->
+      <a href="https://www.tiktok.com/@wekad.sa" class="social-icon tiktok"><i class="fab fa-tiktok"></i></a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <p class="footer-copyright">&copy; 2025 Tree | All rights reserved.</p>
+      <div class="footer-dev">
+        <span><a href="https://wa.me/966578661535" target="_blank">برمجة وتطوير | 966578661535</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
